@@ -2,6 +2,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## 공부...가보자고
+
+노마드 코더 들으면서 실습해본 것을 올리는 repository
+'ReactJS로 영화 웹 서비스 만들기' 강의이다.
+리액트가 워낙 빠르게 바뀌어서 버전이 최신것보다 하위지만 동작 어떻게 하는지 중심으로 공부할 것
+Vue랑 무엇이 다른지 고민해보면서 강의 들을 것.
+리액트도 ...가보자고...~!
+
 ## Available Scripts
 
 In the project directory, you can run:
