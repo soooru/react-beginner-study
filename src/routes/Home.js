@@ -11,13 +11,15 @@ function Home() {
     const resJson = await response.json();
     setMovies(resJson.data.movies);
     setLoading(false);
+    console.log('getMovies', movies);
   };
   useEffect(() => {
     getMovies();
+    console.log('useEffect', movies);
   }, []);
   return (
     <div className="App">
-      <h1>The Coins!</h1>
+      <h1>The Movies</h1>
       {loading ? (
         <strong>Loading...</strong>
       ) : (
