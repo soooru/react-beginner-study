@@ -6,7 +6,6 @@ function App() {
   const [toDo, setToDo] = useState('');
   const [toDos, setToDos] = useState([]);
   const toDoChange = (event) => {
-    console.log(event.target.value);
     setToDo(event.target.value);
   };
   const onSubmit = (event) => {

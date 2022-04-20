@@ -11,11 +11,9 @@ function Home() {
     const resJson = await response.json();
     setMovies(resJson.data.movies);
     setLoading(false);
-    console.log('getMovies', movies);
   };
   useEffect(() => {
     getMovies();
-    console.log('useEffect', movies);
   }, []);
   return (
     <div className="App">
